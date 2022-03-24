@@ -1,0 +1,212 @@
+@font-face {
+  font-family: 'Rubic';
+  src: url('fonts/Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('fonts/Orbitron-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'GangCrime';
+  src: url('fonts/Gang-Crime.ttf');
+}
+
+@font-face {
+  font-family: 'Amberlyn';
+
+  src: url('fonts/Amberlyn.ttf');
+}
+
+@font-face {
+  font-family: 'Rationale';
+
+  src: url('fonts/rationale.ttf');
+}
+
+@font-face {
+  font-family: 'AngelSignature';
+
+  src: url('fonts/AngelSignature.ttf');
+}
+
+@font-face {
+  font-family: 'Alleffra';
+
+  src: url('fonts/Alleffra.ttf');
+}
+
+@font-face {
+  font-family: 'William';
+
+  src: url('fonts/WilliamDhatos.ttf');
+}
+
+@font-face {
+  font-family: 'Brittany';
+
+  src: url('fonts/BrittanyAngella.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('fonts/OpenSans-Bold.ttf');
+}
+
+* {
+  font-family: 'OpenSans-Regular';
+}
+
+.fonts-sans-bold {
+  font-family: 'OpenSans-Bold' !important;
+}
+
+.fonts-amberlyn {
+  font-family: 'Amberlyn' !important;
+}
+
+.fonts-rationale {
+  font-family: 'Rationale' !important;
+}
+
+.fonts-angel-signature {
+  font-family: 'AngelSignature' !important;
+}
+
+.fonts-alleffra {
+  font-family: 'Alleffra' !important;
+}
+
+.fonts-william {
+  font-family: 'William' !important;
+}
+
+.fonts-brittany {
+  font-family: 'Brittany' !important;
+}
+
+.famous {
+  text-shadow:0.005em 0.050em 5px #fff, 1px 10px 10px #fff;
+  /* letter-spacing: 3px; */
+}
+
+.famoustitle {
+  filter: drop-shadow(1px 10px 10px #fff);
+}
+
+.rubic {
+  font-family: 'Rubic' !important;
+}
+
+.orbitron {
+  font-family: 'Orbitron' !important;
+}
+
+.gangcrime {
+  font-family: 'GangCrime' !important;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+.uploadcare--powered-by {
+  display: none;
+}
+
+.uploadcare--widget,
+.uploadcare--widget__button,
+.uploadcare--widget__dragndrop-area,
+.uploadcare--progress,
+.uploadcare--widget__text {
+  display: none;
+  position: absolute;
+}
+
+/* DROPDOWN NAV */
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn { 
+  background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  border-bottom: 3px solid #9EBC4C;
+  transition: all .2s ease-in;
+}
+
+.dropdown-content {
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  top: 75px;
+  position: absolute;
+  background-color: #fbfbfb;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  border: 0;
+  z-index: -1;
+  transform: translateY(-1em);
+  transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.dropdown-content:focus .dropdown-content-two,
+.dropdown-content:focus-within .dropdown-content-two,
+.dropdown-content:hover .dropdown-content-two {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.dropdown:focus .dropdown-content,
+.dropdown:focus-within .dropdown-content,
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #323232;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.dropdown-content a:hover {
+  background-color: #1214b9;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.link-dropdown {
+  color: #323232;
+}
+
+.link-dropdown:hover {
+  border-bottom: 3px solid #9EBC4C;
+  transition: all .2s ease-in;
+}
+
+/* END DROPDOWN NAV */
